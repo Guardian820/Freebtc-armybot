@@ -14,10 +14,10 @@ function action1() {
 
 function play () {
 	if (test >= "0.00000000") {
-		console.log("continuando os testes");
+		console.log("starting the checks");
 	}
 	else if (test == "-0.00000001") {
-		console.log("parando os testes");
+		console.log("stopping the checks");
     stop = stop + 1; action(); second(); action1();
 	}
 }
