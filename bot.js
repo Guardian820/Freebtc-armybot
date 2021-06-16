@@ -31,7 +31,7 @@ function countdown() {
 function change() {test = "-0.00000001";}
 function killJSexec() {
 	change(); stop = stop + 1; stop1 = stop + 1;
-  alert('you had killed the JVM process');
+  alert('you killed the javascript process');
  }
 function startengine() {
 	test = test * 0.00000000; count = count * 0; stop = stop * 0; stop1 = stop * 0;
